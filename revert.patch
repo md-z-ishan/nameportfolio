@@ -1,0 +1,104 @@
+--- "index.html"
++++ "index.html"
+@@ -628,58 +628,74 @@
+         <div class="certs-grid reveal">
+             <div class="cert-card"
+-                onclick="openLightbox('https://media.licdn.com/dms/image/v2/D5622AQEYWCDKKzrRew/feedshare-shrink_800/feedshare-shrink_800/0/1713288246998?e=1766620800&v=beta&t=Ni2Lhab4FgLCbCbXoqbMTi8YawOil1ezybnuPsMwtro')">
+-                <img src="https://media.licdn.com/dms/image/v2/D5622AQEYWCDKKzrRew/feedshare-shrink_800/feedshare-shrink_800/0/1713288246998?e=1766620800&v=beta&t=Ni2Lhab4FgLCbCbXoqbMTi8YawOil1ezybnuPsMwtro"
+-                    alt="DSA" referrerpolicy="no-referrer" />
++                onclick="openLightbox('Board Inf.jpg')">
++                <img src="Board Inf.jpg"
++                    alt="DSA" />
+                 <div class="cert-info">
+                     <h3>Data Structure &amp; Algorithm</h3>
+                     <p>Board Infinity</p>
++                    <div class="cert-btn">View Certificate</div>
+                 </div>
+             </div>
+             <div class="cert-card"
+-                onclick="openLightbox('https://media.licdn.com/dms/image/v2/D5622AQGozwM-A1xJ2w/feedshare-shrink_800/feedshare-shrink_800/0/1713649983394?e=1766620800&v=beta&t=8qlD9n8ATtNJud9GZS-wfY2Z-6hPm8HPGyd9TAgUeW0')">
+-                <img src="https://media.licdn.com/dms/image/v2/D5622AQGozwM-A1xJ2w/feedshare-shrink_800/feedshare-shrink_800/0/1713649983394?e=1766620800&v=beta&t=8qlD9n8ATtNJud9GZS-wfY2Z-6hPm8HPGyd9TAgUeW0"
+-                    alt="Hackathon" referrerpolicy="no-referrer" />
++                onclick="openLightbox('Hackathon.jpg')">
++                <img src="Hackathon.jpg"
++                    alt="Hackathon" />
+                 <div class="cert-info">
+                     <h3>Code-A-Haunt Hackathon</h3>
+                     <p>CodingBlocks LPU</p>
++                    <div class="cert-btn">View Certificate</div>
+                 </div>
+             </div>
+             <div class="cert-card"
+-                onclick="openLightbox('https://media.licdn.com/dms/image/v2/D5622AQGxxLDnKhSugw/feedshare-shrink_800/feedshare-shrink_800/0/1725655380378?e=1766620800&v=beta&t=uNU80HRpPXXSZ03sVQN3fNThBNjQCWNxJV8gOhKh3S4')">
+-                <img src="https://media.licdn.com/dms/image/v2/D5622AQGxxLDnKhSugw/feedshare-shrink_800/feedshare-shrink_800/0/1725655380378?e=1766620800&v=beta&t=uNU80HRpPXXSZ03sVQN3fNThBNjQCWNxJV8gOhKh3S4"
+-                    alt="Networking" referrerpolicy="no-referrer" />
++                onclick="openLightbox('bits and bytes.jpg')">
++                <img src="bits and bytes.jpg"
++                    alt="Networking" />
+                 <div class="cert-info">
+                     <h3>Bits &amp; Bytes of Computer Networking</h3>
+-                    <p>Google – Coursera &nbsp;·&nbsp; Sep '24</p>
++                    <p>Google – Coursera</p>
++                    <div class="cert-btn">View Certificate</div>
+                 </div>
+             </div>
+             <div class="cert-card"
+-                onclick="openLightbox('https://media.licdn.com/dms/image/v2/D5622AQG7zqy7ERfg8w/feedshare-shrink_800/B56ZQkLH3wG4Ag-/0/1735773685016?e=1766620800&v=beta&t=mmyqlBZKbrYO0lV3HfhZgCObWUOSZkjisyIqzvBAZ0M')">
+-                <img src="https://media.licdn.com/dms/image/v2/D5622AQG7zqy7ERfg8w/feedshare-shrink_800/B56ZQkLH3wG4Ag-/0/1735773685016?e=1766620800&v=beta&t=mmyqlBZKbrYO0lV3HfhZgCObWUOSZkjisyIqzvBAZ0M"
+-                    alt="SDPM" referrerpolicy="no-referrer" />
++                onclick="openLightbox('Software Dev.jpg')">
++                <img src="Software Dev.jpg"
++                    alt="SDPM" />
+                 <div class="cert-info">
+                     <h3>Software Development Processes &amp; Methodologies</h3>
+                     <p>Coursera</p>
++                    <div class="cert-btn">View Certificate</div>
+                 </div>
+             </div>
+             <div class="cert-card"
+-                onclick="openLightbox('https://media.licdn.com/dms/image/v2/D5622AQFaEWMHmJKOQg/feedshare-shrink_2048_1536/B56ZTGfT.LHsAo-/0/1738496886044?e=1766620800&v=beta&t=U5mriXraqVH_FE-Ma7nfIG9ln_KRlMdELVDiO2BMKqQ')">
+-                <img src="https://media.licdn.com/dms/image/v2/D5622AQFaEWMHmJKOQg/feedshare-shrink_2048_1536/B56ZTGfT.LHsAo-/0/1738496886044?e=1766620800&v=beta&t=U5mriXraqVH_FE-Ma7nfIG9ln_KRlMdELVDiO2BMKqQ"
+-                    alt="Hardware" referrerpolicy="no-referrer" />
++                onclick="openLightbox('ibm.jpg')">
++                <img src="ibm.jpg"
++                    alt="Hardware" />
+                 <div class="cert-info">
+                     <h3>Hardware &amp; Operating System Essentials</h3>
+-                    <p>IBM – Coursera &nbsp;·&nbsp; Sep '24</p>
++                    <p>IBM – Coursera</p>
++                    <div class="cert-btn">View Certificate</div>
+                 </div>
+             </div>
+             <div class="cert-card"
+-                onclick="openLightbox('https://media.licdn.com/dms/image/v2/D5622AQFOJfHmm7BJiQ/feedshare-shrink_800/B56ZjJdFhDHQAs-/0/1755726503791?e=1766620800&v=beta&t=Rqti_4noL7Yp0mQphSuH_7Gm0TpFyV3k7q8trdX3vWw')">
+-                <img src="https://media.licdn.com/dms/image/v2/D5622AQFOJfHmm7BJiQ/feedshare-shrink_800/B56ZjJdFhDHQAs-/0/1755726503791?e=1766620800&v=beta&t=Rqti_4noL7Yp0mQphSuH_7Gm0TpFyV3k7q8trdX3vWw"
+-                    alt="Finite Automata" referrerpolicy="no-referrer" />
++                onclick="openLightbox('GEN AI NSCM.png')">
++                <img src="GEN AI NSCM.png"
++                    alt="Gen AI" />
+                 <div class="cert-info">
+-                    <h3>Computational Theory &amp; Finite Automata</h3>
+-                    <p>Infosys Springboard</p>
++                    <h3>Generative AI</h3>
++                    <p>NASSCOM</p>
++                    <div class="cert-btn">View Certificate</div>
++                </div>
++            </div>
++            <div class="cert-card"
++                onclick="openLightbox('Forate Virtual Internship.jpg')">
++                <img src="Forate Virtual Internship.jpg"
++                    alt="Internship" />
++                <div class="cert-info">
++                    <h3>Introduction to Software Engineering Job Simulation</h3>
++                    <p>Forage</p>
++                    <div class="cert-btn">View Certificate</div>
++                </div>
++            </div>
++            <div class="cert-card"
++                onclick="openLightbox('Java Trainning.jpeg')">
++                <img src="Java Trainning.jpeg"
++                    alt="Java Training" />
++                <div class="cert-info">
++                    <h3>Fundamentals of Data Structures</h3>
++                    <p>Lovely Professional University</p>
++                    <div class="cert-btn">View Certificate</div>

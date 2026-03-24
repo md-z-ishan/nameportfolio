@@ -575,7 +575,6 @@ h2.section-title {
 
 .skill-category:hover {
   border-color: var(--cyan);
-  background: rgba(25, 20, 16, 0.95);
   transform: translateY(-6px);
   box-shadow: 0 20px 60px rgba(210, 105, 30, 0.1);
 }
@@ -803,7 +802,6 @@ h2.section-title {
 .training-card:hover {
   transform: translateY(-6px);
   border-color: var(--cyan);
-  background: rgba(25, 20, 16, 0.95);
   box-shadow: 0 20px 60px rgba(210, 105, 30, 0.1);
 }
 
@@ -1117,7 +1115,9 @@ h2.section-title {
   border-radius: 20px;
   overflow: hidden;
   transition: .5s;
-  cursor: pointer
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
 }
 
 .cert-card:hover {
@@ -1128,10 +1128,12 @@ h2.section-title {
 
 .cert-card img {
   width: 100%;
-  height: 180px;
+  height: 200px;
   object-fit: contain;
   background: #0a0a1f;
   padding: 1rem;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
   transition: .4s
 }
 
@@ -1140,12 +1142,15 @@ h2.section-title {
 }
 
 .cert-info {
-  padding: 1.2rem
+  padding: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .cert-info h3 {
-  font-size: .95rem;
-  font-weight: 700;
+  font-size: 1.1rem;
+  font-weight: 900;
   margin-bottom: .3rem;
   background: var(--grad);
   -webkit-background-clip: text;
@@ -1154,7 +1159,47 @@ h2.section-title {
 
 .cert-info p {
   font-size: .82rem;
-  color: var(--muted)
+  color: rgba(253, 250, 246, 0.75);
+  margin-bottom: auto;
+}
+
+.cert-btn {
+  margin-top: 1rem;
+  padding: 0.6rem 1rem;
+  background: rgba(210, 105, 30, 0.05);
+  border: 1px solid rgba(210, 105, 30, 0.3);
+  color: var(--yellow);
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-align: center;
+  transition: all 0.4s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(210, 105, 30, 0.1) inset;
+}
+
+.cert-btn::after {
+  content: '';
+  position: absolute;
+  top: 0; left: -100%;
+  width: 100%; height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+  transition: 0.5s;
+}
+
+.cert-card:hover .cert-btn {
+  background: var(--grad);
+  color: #fff;
+  border-color: transparent;
+  box-shadow: 0 5px 15px rgba(210, 105, 30, 0.4);
+  transform: translateY(-2px);
+}
+
+.cert-card:hover .cert-btn::after {
+  left: 100%;
 }
 
 /* CONTACT */
